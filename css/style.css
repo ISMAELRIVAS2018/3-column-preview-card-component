@@ -44,12 +44,20 @@ img {
    
 }
 
+@media (min-width: 400px) { 
+    .component{
+       padding: 4rem;
+    }
+}
+
+
 @media (min-width: 768px) { 
     .component{
         height: 100vh;
         flex-direction: row;
         max-width: 97rem;
         margin: 0 auto;
+        padding: 2rem;
     }
 }
 
